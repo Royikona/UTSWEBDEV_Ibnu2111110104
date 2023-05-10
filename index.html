@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>E-commerce Marvel</title>
+</head>
+<body>
+  <!-- nav atas -->
+  <header>
+    <nav class="navbar">
+      <h2 class="nav-logo">
+        <a href="Index.html">
+          <img src="./assets/img/MARVEL AIRCRAFT.png" alt="Logo Home">
+        </a>
+      </h2>
+      <div class="search">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="What are you looking for?" aria-label="What are you looking for?">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="topnav">
+        <a href="./Login.html"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
+        <a href="./cart.html"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+      </div>
+    </nav>
+    <!-- nav bawah -->
+    <div class="navbwh" id="navbwh">
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+        Planes
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+        Motors
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+        Electronics
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+        Accessories
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+      </ul>
+    </div>
+    </div>
+  </header>
+
+  <!-- hero  -->
+  <div class="hero">
+    <a href="Index.html">
+      <img src="./assets/img/hero.png" class="img-fluid" alt="Hero">
+    </a>
+    
+  </div>
+
+  <section class="produk">
+    <div class="container produk-wrapper">
+      <div class="row1">
+        <h1>Best Seller</h1>
+      </div>
+      <div class="row2">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide card">
+        <!-- --card produk-- -->
+          <div class="card">
+            <img src="./assets/img/image-product-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-kategori">Planes</h6>
+              <h5 class="card-title">3DHS 95" Extra 330SC-E</h5>
+              <p class="card-text">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo </p>
+              <a href="./detail.html" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <!-- --card produk-- -->
+            <div class="card">
+              <img src="./assets/img/image 2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-kategori">Planes</h6>
+                <h5 class="card-title">Cessna S 30-50 E/G-Red</h5>
+                <p class="card-text">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo </p>
+                <a href="./detail.html" class="btn btn-primary">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <!-- --card produk-- -->
+              <div class="card">
+                <img src="./assets/img/image 3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-kategori">Electronics</h6>
+                  <h5 class="card-title">JETI Duplex DS-16 II.- Carbon Line </h5>
+                  <p class="card-text">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo </p>
+                  <a href="./detail.html" class="btn btn-primary">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card">
+              <!-- --card produk-- -->
+                <div class="card" >
+                  <img src="./assets/img/image 4.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-kategori">Electronics</h6>
+                    <h5 class="card-title">JETI DC-14 II - Red</h5>
+                    <p class="card-text">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo </p>
+                    <a href="./detail.html" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <!-- --card produk-- -->
+                  <div class="card">
+                    <img src="./assets/img/image 5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-kategori">Motor</h6>
+                      <h5 class="card-title">Saito FG-41TS 4-Stroke</h5>
+                      <p class="card-text">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo </p>
+                      <a href="./detail.html" class="btn btn-primary">Details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide card">
+                  <!-- --card produk-- -->
+                    <div class="card">
+                      <img src="./assets/img/image 6.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h6 class="card-kategori">Motor</h6>
+                        <h5 class="card-title">DLE-120T4</h5>
+                        <p class="card-text">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo </p>
+                        <a href="./detail.html" class="btn btn-primary">Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide card">
+                    <!-- --card produk-- -->
+                      <div class="card">
+                        <img src="./assets/img/image 7.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h6 class="card-kategori">Accessories</h6>
+                          <h5 class="card-title">Falcon Civilian Wood Prop 24x10 S3</h5>
+                          <p class="card-text">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo </p>
+                          <a href="./detail.html" class="btn btn-primary">Details</a>
+                        </div>
+                      </div>
+                    </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
